@@ -1,0 +1,144 @@
+[
+    {
+        "Command": [],
+        "Constant": [],
+        "Constructor": [],
+        "Deprecated": [],
+        "Field": [
+            {
+                "def": "InfoServer.port",
+                "desc": "Port to listen on. Defaults to 9181.",
+                "doc": "Port to listen on. Defaults to 9181.",
+                "name": "port",
+                "signature": "InfoServer.port",
+                "stripped_doc": "",
+                "type": "Variable"
+            }
+        ],
+        "Function": [],
+        "Method": [
+            {
+                "def": "InfoServer:centerAlert(message)",
+                "desc": "Display a large centered alert on the main screen.",
+                "doc": "Display a large centered alert on the main screen.\n\nParameters:\n * message - The string message to display.",
+                "name": "centerAlert",
+                "parameters": [
+                    " * message - The string message to display."
+                ],
+                "returns": [],
+                "signature": "InfoServer:centerAlert(message)",
+                "stripped_doc": "",
+                "type": "Method"
+            },
+            {
+                "def": "InfoServer:start()",
+                "desc": "Start the HTTP server.",
+                "doc": "Start the HTTP server.\n\nReturns:\n * The InfoServer object",
+                "name": "start",
+                "parameters": [],
+                "returns": [
+                    " * The InfoServer object"
+                ],
+                "signature": "InfoServer:start()",
+                "stripped_doc": "",
+                "type": "Method"
+            },
+            {
+                "def": "InfoServer:stop()",
+                "desc": "Stop the HTTP server and remove any displayed task info.",
+                "doc": "Stop the HTTP server and remove any displayed task info.\n\nReturns:\n * The InfoServer object",
+                "name": "stop",
+                "parameters": [],
+                "returns": [
+                    " * The InfoServer object"
+                ],
+                "signature": "InfoServer:stop()",
+                "stripped_doc": "",
+                "type": "Method"
+            },
+            {
+                "def": "InfoServer:updateTaskInfoDisplay(data)",
+                "desc": "Update the on-screen task info display.",
+                "doc": "Update the on-screen task info display.\n\nParameters:\n * data - A table containing the task info. Expected keys: `doer`, `task_name`, `time_slot`.",
+                "name": "updateTaskInfoDisplay",
+                "parameters": [
+                    " * data - A table containing the task info. Expected keys: `doer`, `task_name`, `time_slot`."
+                ],
+                "returns": [],
+                "signature": "InfoServer:updateTaskInfoDisplay(data)",
+                "stripped_doc": "",
+                "type": "Method"
+            }
+        ],
+        "Variable": [],
+        "desc": "Simple HTTP server for receiving tasks and alerts.",
+        "doc": "Simple HTTP server for receiving tasks and alerts.\n\nDownload: [https://github.com/zzuse/hammerspoon/tree/master/Spoons/InfoServer.spoon](https://github.com/zzuse/hammerspoon/tree/master/Spoons/InfoServer.spoon)",
+        "items": [
+            {
+                "def": "InfoServer:centerAlert(message)",
+                "desc": "Display a large centered alert on the main screen.",
+                "doc": "Display a large centered alert on the main screen.\n\nParameters:\n * message - The string message to display.",
+                "name": "centerAlert",
+                "parameters": [
+                    " * message - The string message to display."
+                ],
+                "returns": [],
+                "signature": "InfoServer:centerAlert(message)",
+                "stripped_doc": "",
+                "type": "Method"
+            },
+            {
+                "def": "InfoServer.port",
+                "desc": "Port to listen on. Defaults to 9181.",
+                "doc": "Port to listen on. Defaults to 9181.",
+                "name": "port",
+                "signature": "InfoServer.port",
+                "stripped_doc": "",
+                "type": "Variable"
+            },
+            {
+                "def": "InfoServer:start()",
+                "desc": "Start the HTTP server.",
+                "doc": "Start the HTTP server.\n\nReturns:\n * The InfoServer object",
+                "name": "start",
+                "parameters": [],
+                "returns": [
+                    " * The InfoServer object"
+                ],
+                "signature": "InfoServer:start()",
+                "stripped_doc": "",
+                "type": "Method"
+            },
+            {
+                "def": "InfoServer:stop()",
+                "desc": "Stop the HTTP server and remove any displayed task info.",
+                "doc": "Stop the HTTP server and remove any displayed task info.\n\nReturns:\n * The InfoServer object",
+                "name": "stop",
+                "parameters": [],
+                "returns": [
+                    " * The InfoServer object"
+                ],
+                "signature": "InfoServer:stop()",
+                "stripped_doc": "",
+                "type": "Method"
+            },
+            {
+                "def": "InfoServer:updateTaskInfoDisplay(data)",
+                "desc": "Update the on-screen task info display.",
+                "doc": "Update the on-screen task info display.\n\nParameters:\n * data - A table containing the task info. Expected keys: `doer`, `task_name`, `time_slot`.",
+                "name": "updateTaskInfoDisplay",
+                "parameters": [
+                    " * data - A table containing the task info. Expected keys: `doer`, `task_name`, `time_slot`."
+                ],
+                "returns": [],
+                "signature": "InfoServer:updateTaskInfoDisplay(data)",
+                "stripped_doc": "",
+                "type": "Method"
+            }
+        ],
+        "name": "InfoServer",
+        "stripped_doc": "\nDownload: [https://github.com/zzuse/hammerspoon/tree/master/Spoons/InfoServer.spoon](https://github.com/zzuse/hammerspoon/tree/master/Spoons/InfoServer.spoon)",
+        "submodules": [],
+        "type": "Module"
+    }
+]
